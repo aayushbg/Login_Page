@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Atom -signup</title>
+    <link href="./res/atom.png" rel="shortcut icon">
+    <!-- Bootstrap style sheet and js -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- End of bootstrap stylesheet and js -->
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Noto+Sans+TC" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- End of Google Fonts -->
+    <link href="./stylesheets/signup-style.css" rel="stylesheet" type="text/css">
+    <script src="./js/index.js"></script>
+</head>
+<body onload="setTimeout(present_webpage,500)">
+    <div id="preloader"></div>
+    <div id="root" class="container-fluid mt-1 mx-auto rounded">
+        <div id="row-1" class="row mt-5">
+            <div class="form-container col-md-9 rounded">
+                <div id="banner" class="text-center font-weight-bold text-primary mx-auto">
+                    <img src="./res/atom2.png" class="d-block mx-auto" height="64" width="64">
+                    Attendance-On-Mobile
+                </div>
+                <div class="info mt-4 text-center">Create your Atom Account</div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-md">
+                            <label class="text-primary"><small>First name</small></label>
+                            <input class="form-control" placeholder="First name" id="first_name">
+                        </div>
+                        <div class="col-md">
+                                <label class="text-primary"><small>Last name</small></label>
+                                <input class="form-control" placeholder="Last name" id="last_name">
+                        </div>
+                    </div>
+                    <div>
+                        <label class="text-primary"><small>Enrollment number</small></label>
+                        <input class="form-control" placeholder="Enrollment number" id="enroll_num">
+                    </div>
+                    <div class="row">
+                        <div class="col-md">
+                            <label class="text-primary"><small>Email</small></label>
+                            <input class="form-control" placeholder="Email" id="email">
+                        </div>
+                        <div class="col-md">
+                            <label class="text-primary"><small>Mobile number</small></label>
+                            <input class="form-control" placeholder="Mobile number" id="mob_num">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md">
+                            <label class="text-primary"><small>Password</small></label>
+                            <input type="password" class="form-control" placeholder="Password" id="password">
+                        </div>
+                        <div class="col-md">
+                            <label class="text-primary"><small>Confirm Password</small></label>
+                            <input type="password" class="form-control" placeholder="Confirm Password" id="confirm_password">
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <a href="./index.html" class="text-decoration-none"><strong>Sign-in Instead?</strong></a>
+                        <button class="btn btn-primary float-right w-25 rounded-pill" type="submit" onclick="submit_cred()">Next</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 my-auto text-center mx-auto">
+                <img id="logo" src="./res/atom2.png" class="d-block mx-auto" />
+                <div class="text-primary mt-2 font-weight-bold">One account. All of College working for you</div>
+            </div>
+            <div id="contact_links" class="text-primary mt-1 mx-auto">
+                <i class="fab fa-facebook"></i>
+                <a href="https://github.com/pv03158/" target="_blank"><i class="fab fa-github text-dark"></i></a>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-google-plus text-danger"></i>
+                <i class="fab fa-google-play text-success"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

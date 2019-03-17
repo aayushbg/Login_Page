@@ -1,0 +1,60 @@
+#preloader{
+    width:100vw;
+    height: 100vh;
+    background: #ffff
+        url('../res/477.gif') no-repeat center;
+    position: fixed;
+    z-index: 100;
+}
+
+#root{
+    display: none;
+}
+
+.container-fluid{
+    border: 1px solid rgb(197, 191, 191);
+    width:75vw;
+    height: 99vh;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.info{
+    font-size: 25px;
+}
+
+#banner{
+    font-size: 30px;
+}
+
+#row-1{
+    height: 70vh;
+}
+
+#logo{
+    width:128px;
+    height: 128px;
+}
+
+label{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 15px;
+}
+
+#contact_links{
+    letter-spacing: 10px;
+    font-size:20px;
+}
+
+@media screen and (max-width:820px){
+    .container-fluid{
+        border:0px;
+        width:75vw;
+        height: 85vh;
+    }   
+    
+    #banner{
+        font-size: 22px;
+        margin-left: 0px;
+    }
+}

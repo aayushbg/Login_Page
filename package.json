@@ -1,0 +1,26 @@
+{
+  "name": "login_page",
+  "version": "1.0.0",
+  "description": "Simple Style Login Page Just For Fun",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pv03158/Login_Page.git"
+  },
+  "author": "Prashant Varshney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pv03158/Login_Page/issues"
+  },
+  "homepage": "https://github.com/pv03158/Login_Page#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "pg": "^7.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
