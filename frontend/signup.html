@@ -49,9 +49,29 @@
                                 <input class="form-control" placeholder="Last name" id="last_name">
                         </div>
                     </div>
-                    <div>
-                        <label class="text-primary"><small>Enrollment number</small></label>
-                        <input class="form-control" placeholder="Enrollment number" id="enroll_num">
+                    <div class="row">
+                        <div class="col-md" id="enroll_or_faculty_id">
+                            <label class="text-primary"><small>Enrollment number</small></label>
+                            <input class="form-control" placeholder="Enrollment number" id="enroll_num">
+                        </div>
+                        <div class="col-md">
+                            <label class="text-primary"><small>College name</small></label>
+                            <select class="custom-select text-muted" id="clg_name">
+                                <option selected>Choose...</option>>
+                                <option value="BPIT">BPIT</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row" id="program_or_dept">
+                        <div class="col-md">
+                            <label class="text-primary"><small>Programme</small></label>
+                            <select class="custom-select text-muted">
+                                <option selected>Choose...</option>
+                                <option value="BTech">BTech</option>
+                                <option value="MBA">MBA</option>
+                                <option value="BBA">BBA</option>
+                            </select>
+                        </div>
                     </div>
                     <div class="row">
                         <div class="col-md">
@@ -83,7 +103,7 @@
                 <img id="logo" src="./res/atom-shape.png" class="d-block mx-auto" />
                 <div class="text-primary mt-2 font-weight-bold">One account. All of College working for you</div>
             </div>
-            <div id="contact_links" class="text-primary mt-1 mx-auto">
+            <div id="contact_links" class="text-primary mx-auto mt-5">
                 <i class="fab fa-facebook"></i>
                 <a href="https://github.com/pv03158/" target="_blank"><i class="fab fa-github text-dark"></i></a>
                 <i class="fab fa-linkedin"></i>
